@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+
+
+.header-container {
+    height: 60px;
+    background-color: yellowgreen;
+}
+.navbar {
+    display: flex;
+}
+
+.navbar div{
+    display: flex;
+}
+
+.navbar img {
+    height: 30px;
+}
