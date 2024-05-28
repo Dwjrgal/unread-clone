@@ -62,15 +62,15 @@
     border-radius: 20px;
 }
 
-.article p::selection{
+.article p{
     margin-bottom: 50px;
-    background: #3399ff;
 }
 
 .article h2 {
     font-size: 40px;
     color: aliceblue;
     font-family:  Helvetica, sans-serif;
+    margin-bottom: 5px;
 }
 
 .article h1 {
