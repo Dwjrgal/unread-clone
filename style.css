@@ -45,7 +45,17 @@
 }
 
 .hero{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
     height: 603px;
     background-image: url("https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/1c8032975647515c919c1e4b30138726.jpg");
+    background-repeat: no-repeat;
 }
 
+.hero img{
+    height: 365px;
+    width: 406px;
+    border-radius: 8px;
+}
