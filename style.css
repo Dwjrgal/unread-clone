@@ -4,11 +4,11 @@
 
 
 .header-container {
-    height: 60px;
     background-color: yellowgreen;
 }
 .navbar {
     display: flex;
+    gap: 30px;
 }
 
 .navbar div{
@@ -18,3 +18,33 @@
 .navbar img {
     height: 30px;
 }
+
+.navbar .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.navbar p {
+    color:gray;
+    font-size: 12px;
+}
+
+.navbar h6{
+    color: #fff;
+    font-size: 13px;
+}
+
+
+.span {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gray;
+    border-radius: 12px;
+    color: aliceblue;
+}
+
