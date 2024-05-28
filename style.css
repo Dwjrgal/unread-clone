@@ -62,6 +62,18 @@
     border-radius: 20px;
 }
 
-.article p{
+.article p::selection{
     margin-bottom: 50px;
+    background: #3399ff;
+}
+
+.article h2 {
+    font-size: 40px;
+    color: aliceblue;
+    font-family:  Helvetica, sans-serif;
+}
+
+.article h1 {
+    font-size: 45px;
+    color: antiquewhite;
 }
