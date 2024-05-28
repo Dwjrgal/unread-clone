@@ -2,10 +2,6 @@
     margin: 0;
 }
 
-
-.header-container {
-    background-color: yellowgreen;
-}
 .navbar {
     display: flex;
     gap: 30px;
@@ -46,5 +42,10 @@
     background-color:gray;
     border-radius: 12px;
     color: aliceblue;
+}
+
+.hero{
+    height: 603px;
+    background-image: url();
 }
 
