@@ -2,22 +2,28 @@
     margin: 0;
 }
 
-
 .header-container{
-    background-color: tan;
+    height: 800px;
+    background-image: url("https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/1c8032975647515c919c1e4b30138726.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
 }
+
 .navbar {
     display: flex;
     gap: 30px;
+    justify-content: space-between;
 }
 
-.navbar input{
+ .navbar div input{
     border-style: none;
     text-align: center;
 }
 
 .navbar div{
     display: flex;
+    gap: 10px;
 }
 
 .navbar img {
@@ -56,15 +62,13 @@
 
 .hero{
     display: flex;
-    text-align: start;
+    gap: 70px;
+}
+
+.hero .content{
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
-    height: 800px;
-    background-image: url("https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/1c8032975647515c919c1e4b30138726.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
 }
 
 .hero img{
