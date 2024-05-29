@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+
+.info-container{
+    display: flex;
+
+
+}
+
+.ul-1{
+    list-style: none;
+}
