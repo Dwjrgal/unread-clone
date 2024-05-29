@@ -3,7 +3,8 @@
 }
 
 .header-container{
-    height: 800px;
+    height: 100vh;
+    width: 100vw;
     background-image: url("https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/1c8032975647515c919c1e4b30138726.jpg");
     background-repeat: no-repeat;
     background-size: cover;
