@@ -4,10 +4,67 @@
 
 .info-container{
     display: flex;
-
-
+    gap: 60px;
+    padding-top: 60px;
+    padding-left: 160px;
 }
 
-.ul-1{
+.info-container h5{
+    color: blue;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+
+.info-container ul{
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-container li{
+    display: flex;
+    gap: 5px;
+    color: grey;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.info-container p{
+    font-size: 13px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+li:hover{
+    color: black;
+}
+
+
+.footer-container{
+    padding-left: 190px;
+    padding-top: 60px ;
+    display: flex;
+}
+
+.main-menu{
+    display: flex;
+    gap: 80px;
+}
+
+h1:hover{
+    color: rgb(20, 139, 179);
+}
+
+.main-menu div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer{
+    margin-top: 60px;
+    margin-left: 90px;
 }
