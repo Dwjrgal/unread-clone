@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .navbar {
@@ -22,16 +23,25 @@
     border: none;
     outline: none;
     background-color: rgba(0,0,0,0.5);
+    border-left: 2px solid;
+    height: 40px;
+    text-align: center;
 }
 
 .navbar div{
     display: flex;
-    gap: 10px;
+    gap: 30px;
+}
+
+.span::after{
+    content: "*";
+    text-align: center;
 }
 
 .navbar img {
     height: 20px;
     margin-left: 10px;
+   margin-top: 13px;
 }
 
 .navbar .text{
@@ -41,16 +51,20 @@
     gap: 10px;
 
 }
+.nav-icons:hover{
+    background-color: lightblue;
+
+}
 
 .navbar p {
     color:gray;
     height: 20px;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .navbar h6{
     color: #fff;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 
@@ -86,7 +100,7 @@
 .article h2 {
     font-size: 40px;
     color: aliceblue;
-    font-family:  Helvetica, sans-serif;
+    font-family: 'SF Display ,' sans-serif;
     margin-bottom: 5px;
 }
 
