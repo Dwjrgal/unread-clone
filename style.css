@@ -8,7 +8,7 @@ body {
 }
 
 .header-container {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), black),
     url("https://images.unsplash.com/photo-1716321952068-d27a33aa4014?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMTZ8fHxlbnwwfHx8fHw%3D");
@@ -207,7 +207,10 @@ body {
 .board-container h5{
   color: #fff;
   font-family: sans-serif;
-  font-size: 13px;
+  font-size: 18px;
+  margin-top: 80px;
+  padding-left: 120px;
+  padding-bottom: 30px;
 }
 
 .boards{
