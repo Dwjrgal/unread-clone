@@ -26,11 +26,10 @@ body {
 }
 
 .box {
+  padding-top: 10px;
   border: none;
   outline: none;
   background-color: transparent;
-  border-left: 2px solid;
-  height: 40px;
   caret-color: #fff;
 }
 
@@ -40,7 +39,10 @@ body {
 
 .fa-magnifying-glass {
   color: aliceblue;
-  padding-top: 13px;
+  padding-top: 15px;
+  border-left: 1px solid;
+  height: 25px;
+  padding-left: 13px;
 }
 
 .nav-icons {
@@ -50,6 +52,7 @@ body {
 
 .navbar div {
   display: flex;
+  justify-content: center;
   gap: 20px;
 }
 
