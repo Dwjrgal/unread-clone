@@ -35,7 +35,7 @@ body {
 }
 
 ::placeholder {
-  color: black;
+  color: gainsboro;
 }
 
 .fa-magnifying-glass {
