@@ -8,8 +8,14 @@ body {
 .info-container{
     display: flex;
     gap: 80px;
-    padding-top: 60px;
-    padding-left: 160px;
+    padding-top: 140px;
+    padding-left: 400px;
+}
+
+.info-container i{
+    height: 100px;
+    width: 100px;
+    color: gray;
 }
 
 .info-container h5{
@@ -48,8 +54,8 @@ li:hover{
 
 
 .footer-container{
-    padding-left: 190px;
-    padding-top: 60px ;
+    padding-left: 600px;
+    padding-top: 300px ;
     display: flex;
 }
 
@@ -75,5 +81,18 @@ h1:hover{
 
 .footer{
     margin-top: 60px;
-    margin-left: 90px;
+    margin-left: 600px;
+    margin-bottom: 60px;
+}
+
+.footer h6{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footer p{
+    font-size: 11px;
+    color: gray;
+    font-weight: 700;
+    margin-top: 30px ;
 }
