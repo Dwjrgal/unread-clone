@@ -282,4 +282,18 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: gainsboro;
+  padding-top: 400px;
+}
+
+.interesting-section img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.interesting-section .content {
+  height: 139px;
+  width: 740px;
+  border: 2px solid;
+  border-radius: 8px;
 }
