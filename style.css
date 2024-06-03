@@ -283,3 +283,9 @@ body {
   width: 100vw;
   background-color: gainsboro;
 }
+
+.interesting-section img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
