@@ -529,3 +529,35 @@ body {
   padding-right: 60px;
   height: 80px;
 }
+
+.interesting-section img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.grid-contacts img{
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  
+}
+
+/* .grid-contacts{
+  display: grid;
+  grid-template-rows: 200px 300px 400px;
+  grid-row-gap: 20px;
+grid-gap: 20px;
+
+} */
+
+
+.footer-container{
+  height: 800px;
+  background-color: black;
+  color: #fff;
+}
+
+.footer-a p{
+}
