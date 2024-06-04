@@ -603,17 +603,66 @@ body {
 }
 
 .contact-btn1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
   height: 90px;
-  width: 323px;
+  width: 350px;
+  background-color: teal;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.contact-btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 90px;
+  width: 350px;
   background-color: teal;
   border-radius: 12px;
 }
 
-.contact-btn2{
-  height: 90px;
-  width: 323px;
-  background-color: teal;
-  border-radius: 12px;
+.contact-btn1 div{
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.contact-btn2 div{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-btn1 p{
+  color: gray;
+}
+
+.contact-btn2 p{
+  color: gray;
+}
+
+.contact-btn1 h6{
+  font-size: 14px;
+}
+
+.contact-btn2 h6{
+  font-size: 14px;
+}
+
+.fa-circle-chevron-right{
+  font-size: 30px;
+}
+.fa-circle-chevron-right:hover{
+  color: #0078f6;
+}
+
+.app img{
+  height: 56px;
+  padding: 4px;
+
 }
 
 .footer-b{
@@ -622,6 +671,7 @@ body {
   flex-direction: column;
   gap: 40px;
 }
+
 .footer-b p{
   color: gray;
   font-size: 12px;
@@ -639,14 +689,15 @@ body {
 }
 
 .ul-container ul-1{
+  list-style: none;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.ul-container li{
-  display: flex;
+.ul-container li:hover{
+  color: #fff;
 }
 
 .ul-container ul {
@@ -662,9 +713,14 @@ body {
 
 }
 
-.footer-b  div span{
-  height: 12px;
-  width: 12px;
+.footer-b div{
+  display: flex;
+  align-items: center;
+}
+
+.footer-b .dot{
+  height: 6px;
+  width: 6px;
   border-radius: 50%;
   background-color: white;
 
