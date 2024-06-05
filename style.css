@@ -503,17 +503,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* height: 400px; */
-  /* width: 600px; */
 }
 .item-2 {
-  /* grid-column: 1 /2; */
   background-image: url("./image-9.avif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* width: 260px; */
-  /* height: 250px; */
 }
 
 .item-3 {
@@ -617,7 +612,7 @@ body {
 }
 
 .btn-grad:hover {
-  background-position: right center; /* change the direction of the change here */
+  background-position: right center;
   color: #fff;
   text-decoration: none;
 }
