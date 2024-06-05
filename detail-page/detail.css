@@ -54,6 +54,8 @@
   color: grey;
   padding-top: 13px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   font-size: 20px;
 }
@@ -109,11 +111,7 @@
   gap: 80px;
 }
 
-.content-section {
-  display: center;
-  width: 550px;
-  padding-top: 60px;
-}
+
 .content {
   width: 100vw;
   padding-left: 200px;
@@ -139,10 +137,15 @@
   font-size: 12px;
   display: flex;
   gap: 15px;
+  margin-left: 90px;
 }
 
 .content-title span {
   color: #0078f6;
+}
+
+.content-title div{
+  display: flex;
 }
 
 .content img {
@@ -159,12 +162,15 @@
 
 .icon div {
   display: flex;
+  gap: 20px;
 }
 
 .other span {
   color: gray;
   font-size: 13px;
   padding-bottom: 20px;
+  width: 110px;
+  margin-bottom: -20px;
 }
 
 .other .logos {
@@ -175,9 +181,10 @@
 
 .other .icon {
   display: flex;
+  flex-direction: column;
   font-size: 14px;
   font-weight: 100;
-  gap: 20px;
+  gap: 10px;
 }
 
 .description {
@@ -222,3 +229,101 @@
   color: #0078f6;
   font-size: 20px;
 }
+
+.blockquote-2{
+  width: 550px;
+  height: 190px;
+  margin-top: 60px;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  gap: 20px;
+
+}
+
+.blockquote-2 h6{
+  font-size: 20px;
+}
+
+.blockquote-2 p{
+  font-size: 14px;
+  color: gray;
+}
+
+.footer-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 356px;
+  width: 100vw;
+  background-color: gainsboro;
+}
+
+.title img {
+  height: 30px;
+  width: 30px;
+}
+
+.title div{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title input{
+  height: 100px;
+  width: 400px;
+  border: none;
+  border-top: 1px solid;
+}
+
+::placeholder{
+ display: flex;
+ align-items: flex-start;
+}
+
+.input-1 input{
+  margin-top: 25px;
+  height: 30px;
+  width: 400px;
+  border: none;
+}
+
+.footer-section .span {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 30px;
+  width: 400px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  margin-left: -10px;
+}
+
+.footer-section p{
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-section b{
+  color: #0078f6;
+  font-size: 13px;
+}
+
+.foot{
+  display: flex;
+  height: 300px;
+  width: 100vw;
+  background-color: #fff;
+}
+
+
+
