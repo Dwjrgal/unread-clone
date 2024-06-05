@@ -6,6 +6,9 @@
   width: 100vw;
   height: 86px;
   margin-bottom: 80px;
+  background-color: #fff;
+  border-radius: 2px solid black;
+  background-color: white;
 }
 
 .logbar {
@@ -37,11 +40,11 @@
 }
 
 ::placeholder {
-  color: gainsboro;
+  color: gray;
 }
 
 .fa-magnifying-glass {
-  color: aliceblue;
+  color: gray;
   padding-top: 14px;
   border-left: 1px solid;
   height: 25px;
@@ -52,12 +55,19 @@
   padding-top: 13px;
   display: flex;
   gap: 20px;
+  font-size: 20px;
+}
+.fa-chevron-left {
+  padding-left: 120px;
 }
 
 .span {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 8px;
+  background-color: white;
+  margin-left: 20px;
 }
 
 .span div {
@@ -80,17 +90,31 @@
   justify-content: center;
   gap: 8px;
 }
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.random p {
+  color: gray;
+}
+
+.random h6 {
+  color: #0078f6;
+}
 .navbar .random {
   display: flex;
   gap: 80px;
 }
 
 .content {
-  padding-left: 90px;
-  padding-right: 90px;
+  width: 100vw;
+  padding-left: 200px;
+  padding-right: 200px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
 }
 
 .content-title {
@@ -118,21 +142,77 @@
 
 .content img {
   height: 650px;
-  width: 1080;
+  width: 1080px;
+}
+
+.other {
+  display: flex;
+  gap: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.icon div {
+  display: flex;
 }
 
 .other span {
   color: gray;
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+.other .logos {
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.other .icon {
+  display: flex;
+  font-size: 14px;
+  font-weight: 100;
+  gap: 20px;
 }
 
 .description {
   display: flex;
   flex-direction: column;
-  width: 503px;
+  width: 550px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .description-2 img {
-  width: 503px;
+  width: 550px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.text p {
+  font-size: 15px;
+  font-weight: 570;
+}
+
+.blockquote {
+  width: 550px;
+  height: 250px;
+  margin-top: 60px;
+  background-color: gainsboro;
+  text-align: center;
+  border-radius: 12px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.blockquote h5 {
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+
+.blockquote p {
+  color: #0078f6;
+  font-size: 20px;
 }
