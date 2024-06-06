@@ -398,6 +398,13 @@ body {
   padding-top: 20rem;
 }
 
+.interesting-section.dot {
+  background-color: gray;height: 7px;
+  width: 8px;
+  border-radius: 50%;
+
+}
+
 .part-1 {
   display: flex;
   flex-direction: column;
@@ -538,15 +545,30 @@ body {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+.item-1 div{
+  height: 100px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 
 .item span {
   position: absolute;
-  width: 20px;
-  height: 10px;
+  width: 60px;
+  height: 30px;
+  bottom: 80px;
+  right: 30px;
   border-radius: 8px;
+  text-align: center;
   backdrop-filter: blur(20px);
-  background-color: transparent;
+  background-color: rgb(205, 203, 200);
 }
 
 .item p {
