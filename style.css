@@ -517,9 +517,11 @@ body {
   justify-content: flex-end;
 }
 
-.item-2 div{
-  font-size: 14px;
-  filter: blur( 5px);
+.item-2 div {
+  font-size: 25px;
+  /* filter: blur(5px); */
+  color: white;
+  filter: blur(20px);
 }
 
 .item-3 {
@@ -563,14 +565,27 @@ body {
   padding-left: 60px;
   padding-right: 60px;
   height: 80px;
-  border-bottom: 1px solid;
   margin-bottom: 50px;
 }
 
-.grid-title p{
-  color: #0078f6;
+.grid-title .title {
+  width: 220px;
+  height: 62px;
+  border-bottom: 1px solid;
+  text-align: center;
+  padding-top: 30px;
 }
 
+.title-1 {
+  color: #0078f6;
+  width: 220px;
+  height: 62px;
+  border-bottom: 2px solid;
+}
+
+.title:hover {
+  color: #0078f6;
+}
 
 .footer-container {
   display: flex;
