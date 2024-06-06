@@ -129,6 +129,11 @@
   margin-bottom: 50px;
 }
 
+.content-title div {
+  display: flex;
+  gap: 60px;
+}
+
 .content-title h4 {
   font-size: 30px;
   font-weight: 700;
