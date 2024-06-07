@@ -503,6 +503,11 @@ body {
   padding-right: 90px;
 }
 
+.grid-container a {
+  text-decoration: none;
+  color: white;
+}
+
 .grid-contacts {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
