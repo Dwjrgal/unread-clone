@@ -455,7 +455,8 @@ textarea {
 
 .ul-container {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 50px;
   margin-left: -25px;
 }
 
@@ -470,7 +471,7 @@ textarea {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .ul-container li:hover {
@@ -481,7 +482,7 @@ textarea {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .ul-container li {
@@ -489,9 +490,10 @@ textarea {
   font-size: 14px;
 }
 
-.footer-b div {
+.footer-b .div {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .footer-b .dot {
