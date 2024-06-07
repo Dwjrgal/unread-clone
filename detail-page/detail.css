@@ -189,7 +189,7 @@ body {
 .other .logos {
   font-size: 20px;
   display: flex;
-  gap: 20px;
+  gap: -40px;
 }
 
 .other .icon {
@@ -317,7 +317,6 @@ body {
   width: 400px;
   border: 1px solid grey;
   border-radius: 3px;
-  margin-left: -10px;
 }
 
 textarea .footer-section p {
