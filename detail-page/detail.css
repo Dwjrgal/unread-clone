@@ -308,18 +308,35 @@ body {
 .title {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-.footer-section .span {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  height: 30px;
-  width: 400px;
-  border: 1px solid grey;
+textarea {
+  color: gray;
+  border: none;
+  border-bottom: 1px solid;
   border-radius: 3px;
 }
 
-textarea .footer-section p {
+.footer-section .span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 30px;
+  width: 400px;
+  border: 1px solid rgb(180, 177, 177);
+  border-radius: 3px;
+}
+
+.footer-section p {
+  text-align: center;
+  color: gray;
+}
+
+.footer-section article {
   text-align: center;
   font-size: 12px;
 }

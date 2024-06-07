@@ -266,6 +266,7 @@ body {
 .box-container {
   display: flex;
   gap: 30px;
+  overflow-x: scroll;
 }
 
 .boards button {
