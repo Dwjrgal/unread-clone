@@ -395,7 +395,7 @@ body {
 .interesting-section {
   display: flex;
   flex-direction: column;
-  width: 800px;
+  justify-content: center;
   gap: 80px;
   background-color: gainsboro;
   padding-bottom: 80px;
