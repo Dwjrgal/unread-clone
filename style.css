@@ -379,6 +379,9 @@ body {
   color: gainsboro;
   margin-right: 120px;
 }
+.part-container {
+  width: 800px;
+}
 
 .fa-chevron-left:hover {
   color: aqua;
