@@ -382,7 +382,8 @@ body {
 .part-container {
   width: 1200px;
   background-color: gainsboro;
-  padding-left: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .fa-chevron-left:hover {
