@@ -382,6 +382,7 @@ body {
 .part-container {
   width: 1200px;
   background-color: gainsboro;
+  padding-left: 60px;
 }
 
 .fa-chevron-left:hover {
@@ -396,7 +397,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: auto;
   background-color: gainsboro;
   padding-bottom: 80px;
   padding-top: 20rem;
